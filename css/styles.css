@@ -1,7 +1,8 @@
 :root {
     --text-color: #667085;
+    --main-color: #8E2424;
 }
-  
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ body {
 .text-logo {
     width: 113px;
     height: 24px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     display: flex;
@@ -54,6 +55,34 @@ button {
 }
   
 button#signUp {
-    background-color: #8E2424;
+    background-color: var(--main-color);
     color: #FFF;
+}
+
+.container {
+    width: Fill;
+    height: Fixed;
+    padding: 96px 0px 96px 0px; 
+    text-align: center;
+}
+
+.container h1 {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 20px;
+}
+
+.container h2 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.container span {   
+    font-family: Inter;
+    font-size: 16px;
+    padding-top: 12px;
+    color: var(--text-color);
+    padding: 20px;
 }
