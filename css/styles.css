@@ -134,3 +134,49 @@ button#signUp {
     font-size: 20px;
     margin-bottom: 3rem;
 }
+
+.container-vagas { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.container-categoria {
+    text-align: left;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.vaga {
+    text-align: left;
+    width: 70%;
+    height: 130px;
+    border:  0.2px solid #e7e7e7;
+    border-radius: 10px;
+    margin-top: 3%;
+    padding: 25px;
+}
+
+.categoria-vaga {
+    color: #030303;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.titulo-vaga {
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    padding: 1rem 0;
+    gap: 30px;
+    margin-top: 20px;
+}
