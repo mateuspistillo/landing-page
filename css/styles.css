@@ -90,18 +90,33 @@ button#signUp {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 1rem 2rem;
 }
 
 .metricas-blocos {
     width: 300px;
-    height: 200px;
-    margin: 1rem;
+    height: 250px;
+    margin: 0 1rem;
+    text-align: start;
+}
+
+.metricas-blocos h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--main-color);
+    text-align: start;
+    padding-left: 0px;
 }
 
 .metricas-container h3 {
     font-size: 18px;
     color: #101828;
     margin: 1rem 0;
+}
+
+.metricas-container p {
+    font-size: 16px;
+    color: var(--text-color);
 }
 
 .container-talentos {
